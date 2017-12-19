@@ -6,16 +6,26 @@ updated: '2015-07-12 02:05:04'
 date: 2014-04-16 00:53:46
 ---
 
-这个博客原来叫`iOS开发博客`，自从我踏上了前端不归路后，已经改名为`undefinedblog`。
+最早叫 `iOS开发博客`，现在叫 `undefinedblog`。
 
-以前用的是`Wordpress`，现在踏入`Ghost`大坑。
+最早是基于 WordPress（2012 - 2013），后来是 Microlog on GAE（late 2013），然后是 Ghost on DigitalOcean（early 2014 - late 2017），现在是 Hexo on Github Pages（late 2017 - now）。
 
-> 学校及公司信息出于隐私考虑还是略去。
+> 很早之前参与翻译了一本书
 
-除了传统前端工作，我有丰富的`Wordpress`开发经验，此外兼职捣鼓各种`CMS`。另外正如开题所言，我还研究过一段时间的 iOS 开发，不过那是早在 2010 年了。
+[《React —— 引领未来的用户界面开发框架》](https://book.douban.com/subject/26378583/)
 
-我所（neng）有（kan）的（de）作（dai）品（ma）都扔在 Github 上，欢迎 star & fork.
+> 最近去 D2 前端大会讲了一个议题
 
- - Github: [https://github.com/jasonslyvia](https://github.com/jasonslyvia)
- - stackoverflow: [http://stackoverflow.com/users/761124/jasonslyvia](http://stackoverflow.com/users/761124/jasonslyvia)
- - Weibo:  [http://weibo.com/u/2199819141/](http://weibo.com/u/2199819141/)
+[《把前端监控做到极致》](https://files.alicdn.com/tpsservice/39299d06993224a40767f1d29c6345e7.pdf)
+
+> 经常贡献些开源代码
+
+[https://github.com/jasonslyvia](https://github.com/jasonslyvia)
+
+> 偶尔回答点问题
+
+[http://stackoverflow.com/users/761124/jasonslyvia](http://stackoverflow.com/users/761124/jasonslyvia)
+
+> 社交媒体上大部分时间在招人，包括现在！
+
+[微博](http://weibo.com/u/2199819141/)  [知乎](https://www.zhihu.com/people/yangsen/activities)
