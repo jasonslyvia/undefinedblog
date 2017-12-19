@@ -1,0 +1,31 @@
+language: node_js
+node_js: stable
+cache:
+    apt: true
+    directories:
+        - node_modules
+before_install:
+    - npm install hexo-cli -g
+install:
+    - npm install
+script:
+    - hexo clean
+    - hexo g
+after_script:
+    - git clone https://${GH_REF} .deploy_git
+    - cd .deploy_git
+    - git checkout master
+    - cd ../
+    - mv .deploy_git/.git/ ./public/
+    - cd ./public
+    - git config user.name "jasonslyvia"
+    - git config user.email "jasonslyvia@gmail.com"
+    - git add .
+    - git commit -m "Travis CI Auto Builder"
+    - git push --force --quiet "https://${token}@${GH_REF}" master:master
+branches:
+    only:
+        - master
+env:
+    global:
+        - GH_REF: github.com/jasonslyvia/undefinedblog.com.git
