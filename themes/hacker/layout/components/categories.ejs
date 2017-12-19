@@ -1,0 +1,43 @@
+<article>
+  <h2 class="article-title <% if (page.category){ %> category<% } else if (page.category){ %> category<% } %>"><%= page.title || config.title %></h2>
+
+  <div class="categories-cloud">
+    <% site.categories.sort('name').map(function(category){  %>
+			<span class="post-categories">
+	      <i class="icon-categories"></i>
+				<a href="<%= url_for(category.path) %>" title="<%= category.name %>" rel="<%= category.length %>"><%= category.name %></a>
+	    </span>
+    <% }) %>
+  </div>
+
+  <div class="archive">
+    <% site.categories.sort('name').map(function(category){  %>
+    <div class="archive-categories">
+      <span class="post-categories">
+        <i class="icon-categories"></i>
+          <a href="<%= url_for(category.path) %>" title="<%= category.name %>" rel="<%= category.length %>"><%= category.name %></a>
+      </span>
+      <% category.posts.sort('-date').map(function(item){  %>
+        <div class="<%= item.layout %> archive">
+          <div class="archive-post">
+            <time datetime="<%= item.date.toDate().toISOString() %>">
+              <a href="<%- url_for(item.path) %>"><%= item.date.format(config.date_format) %></a>
+            </time>
+            <% if (item.link){ %>
+              <% if (item.title){ %>
+              <h3 class="archive-title"><a href="<%- url_for(item.link) %>" target="_blank"><span><%= item.title %></span></a></h3>
+              <% } else { %>
+              <h3 class="archive-title"><a href="<%- url_for(item.link) %>" target="_blank"><span><%= item.link %></span></a></h3>
+              <% } %>
+            <% } else { %>
+              <h3 class="archive-title"><a href="<%- url_for(item.path) %>"><span><%= item.title %></span></a></h3>
+            <% } %>
+          </div>
+        </div>
+      <% }) %>
+    </div>
+    <% }) %>
+
+    <%- partial('components/pagination') %>
+  </div>
+</article>

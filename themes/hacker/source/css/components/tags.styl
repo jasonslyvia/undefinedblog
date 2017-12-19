@@ -1,0 +1,57 @@
+$hackerRed = #0074D9
+$hackerGray = #9e9e9e
+
+article
+  .tags-cloud
+    width 100%
+    margin 8rem 0
+    text-align center
+    line-height 2rem
+
+  .tags-cloud > spannot(last-child)
+    margin-right 3rem
+
+  .tags-cloud > span
+    display inline-block
+
+  .tags-cloud > span > span
+    line-height 1
+    vertical-align middle
+
+  .archive-tags
+
+  .archive-tags > spannot(last-child)
+    margin-right 3rem
+
+  .archive-tags > span
+    display inline-block
+
+  .archive-tags > span > span
+    line-height 1
+    vertical-align middle
+
+  .archive-tags, .tags-cloud
+    margin 8rem 0
+    font-size 1.3rem
+    color #9e9e9e
+
+    a
+      color $hackerGray
+      &:hover
+        color $hackerRed
+
+    i
+      vertical-align middle
+      color #9e9e9e
+      margin-right 0.5rem
+
+    .post-tags
+      margin-right 3rem
+
+      a
+        &:before
+          content "#"
+
+        &:not(:last-of-type):after
+          content ","
+          padding-right 5px
