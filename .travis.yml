@@ -1,9 +1,5 @@
 language: node_js
 node_js: stable
-cache:
-    apt: true
-    directories:
-        - node_modules
 before_install:
     - npm install hexo-cli -g
 install:
