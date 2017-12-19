@@ -78,5 +78,7 @@ theme: Hacker
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/jasonslyvia/undefinedblog
-  branch: gh_pages
+  repo: https://github.com/jasonslyvia/undefinedblog.com
+  branch: master
+  name: jasonslyvia
+  email: jasonslyvia@gmail.com
