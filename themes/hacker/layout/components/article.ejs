@@ -1,4 +1,4 @@
-<article class="<% if (is_post()){ %> single-post<% } %> <% if (page){ %> single-page<% } %>">
+<article class="<% if (is_post()){ %> single-post<% } %> <% if (is_current('/about') || is_current('/subscribe')){ %> single-page<% } %>">
 
   <% if (item.link){ %>
     <% if (item.title){ %>
