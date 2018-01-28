@@ -18,7 +18,7 @@ PWA 作为 2018 年前端领域最火的技术之一已经引起了越来越多�
 ### 理论部分
 
 - [什么是 Service Worker](/what-is-service-worker)
-- 怎么使用 Service Worker
+- [怎么使用 Service Worker](/how-to-use-service-worker)
 - Service Worker 的生命周期
 - 什么是 CacheStorage
 - 如何在 Service Worker 中使用 CacheStorage
