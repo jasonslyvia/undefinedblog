@@ -8,7 +8,7 @@ date: 2014-04-16 00:53:46
 
 这个博客最早叫 `iOS开发博客`，后来改名叫 `undefinedblog`。
 
-我最早做过个人站长，玩过 iOS 开发。工作后做了数年数据产品的前端开发，后决定转型，现在是一名数据开发工程师，又称 ETL 工程师，又称洗数据的。
+我最早做过个人站长，玩过 iOS 开发。工作后做了几年数据产品的前端开发，后决定转型。现在是一名数据开发工程师，又称 ETL 工程师，又称洗数据的。
 
 > 翻译过一本书
 
@@ -21,11 +21,11 @@ date: 2014-04-16 00:53:46
 
 > 贡献些开源代码
 
-[https://github.com/jasonslyvia](https://github.com/jasonslyvia)
+[Github](https://github.com/jasonslyvia)
 
 > 偶尔回答点问题
 
-[http://stackoverflow.com/users/761124/jasonslyvia](http://stackoverflow.com/users/761124/jasonslyvia)
+[StackOverflow](http://stackoverflow.com/users/761124/jasonslyvia)
 
 > 社交媒体（近年来基本沉默）
 
