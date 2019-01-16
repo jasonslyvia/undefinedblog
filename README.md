@@ -4,4 +4,4 @@
 
 所有文章除非特别标注，均采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a> （署名、禁止商用、注明来源）协议授权。
 
-[http://undefinedblog.com](http://undefinedblog.com) - [HTML repo](https://github.com/jasonslyvia/undefinedblog.com)
+[https://undefinedblog.com](https://undefinedblog.com) - [HTML repo](https://github.com/jasonslyvia/undefinedblog.com)
